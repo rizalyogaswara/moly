@@ -1,0 +1,218 @@
+[
+  {
+    "block-number": 1,
+    "name-block": "start",
+    "content-block": "start",
+    "bg-source": ""
+  },
+  {
+    "block-number": 2,
+    "name-block": "bonus",
+    "content-block": 1000,
+    "bg-source": "/assets/moneys/1000.webp"
+  },
+  {
+    "block-number": 3,
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
+  },
+  {
+    "block-number": 4,
+    "name-block": "bonus",
+    "content-block": 5000,
+    "bg-source": "/assets/moneys/5000.webp"
+  },
+  {
+    "block-number": 5,
+    "name-block": "minus",
+    "content-block": -7000,
+    "bg-source": "/assets/moneys/7000.webp"
+  },
+  {
+    "block-number": 6,
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
+  },
+  {
+    "block-number": 7,
+    "name-block": "bonus",
+    "content-block": 20000,
+    "bg-source": "/assets/moneys/20000.webp"
+  },
+  {
+    "block-number": 8,
+    "name-block": "minus",
+    "content-block": -25000,
+    "bg-source": "/assets/moneys/25000.webp"
+  },
+  {
+    "block-number": 9,
+    "name-block": "bonus",
+    "content-block": 10000,
+    "bg-source": "/assets/moneys/10000.jpg"
+  },
+  {
+    "block-number": 10,
+    "name-block": "bonus",
+    "content-block": 1200,
+    "bg-source": "/assets/moneys/1200.png"
+  },
+  {
+    "block-number": 11,
+    "name-block": "bonus",
+    "content-block": 2000,
+    "bg-source": "/assets/moneys/2000.jpeg"
+  },
+  {
+    "block-number": 12,
+    "name-block": "bonus",
+    "content-block": 1000,
+    "bg-source": "/assets/moneys/1000-coin.webp"
+  },
+  {
+    "block-number": 13,
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
+  },
+  {
+    "block-number": 14,
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
+  },
+  {
+    "block-number": 15,
+    "name-block": "minus",
+    "content-block": -6000,
+    "bg-source": "/assets/moneys/6000.webp"
+  },
+  {
+    "block-number": 16,
+    "name-block": "bonus",
+    "content-block": 50000,
+    "bg-source": "/assets/moneys/50000.webp"
+  },
+  {
+    "block-number": 17,
+    "name-block": "minus",
+    "content-block": -30000,
+    "bg-source": "/assets/moneys/30000.webp"
+  },
+  {
+    "block-number": 18,
+    "name-block": "bonus",
+    "content-block": 500,
+    "bg-source": "/assets/moneys/500.png"
+  },
+  {
+    "block-number": 19,
+    "name-block": "bonus",
+    "content-block": 1500,
+    "bg-source": "/assets/moneys/1500-coin.png"
+  },
+  {
+    "block-number": 20,
+    "name-block": "minus",
+    "content-block": -22000,
+    "bg-source": "/assets/moneys/22000.webp"
+  },
+  {
+    "block-number": 21,
+    "name-block": "bonus",
+    "content-block": 100,
+    "bg-source": "/assets/moneys/100.png"
+  },
+  {
+    "block-number": 22,
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
+  },
+  {
+    "block-number": 23,
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
+  },
+  {
+    "block-number": 24,
+    "name-block": "bonus",
+    "content-block": 1200,
+    "bg-source": "/assets/moneys/1200-coin.png"
+  },
+  {
+    "block-number": 25,
+    "name-block": "bonus",
+    "content-block": 25000,
+    "bg-source": "/assets/moneys/25000.webp"
+  },
+  {
+    "block-number": 26,
+    "name-block": "bonus",
+    "content-block": 3000,
+    "bg-source": "/assets/moneys/3000.webp"
+  },
+  {
+    "block-number": 27,
+    "name-block": "minus",
+    "content-block": -12000,
+    "bg-source": "/assets/moneys/12000.webp"
+  },
+  {
+    "block-number": 28,
+    "name-block": "bonus",
+    "content-block": 10000,
+    "bg-source": "/assets/moneys/10000.jpg"
+  },
+  {
+    "block-number": 29,
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
+  },
+  {
+    "block-number": 30,
+    "name-block": "bonus",
+    "content-block": 22000,
+    "bg-source": "/assets/moneys/22000.webp"
+  },
+  {
+    "block-number": 31,
+    "name-block": "minus",
+    "content-block": -15000,
+    "bg-source": "/assets/moneys/15000.webp"
+  },
+  {
+    "block-number": 32,
+    "name-block": "bonus",
+    "content-block": 4000,
+    "bg-source": "/assets/moneys/4000.webp"
+  },
+  {
+    "block-number": 33,
+    "name-block": "bonus",
+    "content-block": 6000,
+    "bg-source": "/assets/moneys/6000-coin.webp"
+  },
+  {
+    "block-number": 34,
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
+  },
+  {
+    "block-number": 35,
+    "name-block": "minus",
+    "content-block": -40000,
+    "bg-source": "/assets/moneys/40000.webp"
+  },
+  {
+    "block-number": 36,
+    "name-block": "bonus",
+    "content-block": 12000,
+    "bg-source": "/assets/moneys/12000.webp"
+  }
+]

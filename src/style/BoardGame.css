@@ -1,0 +1,380 @@
+.board-game {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "div6 div7 div8 . . div21 div22 div23"
+    "div5 . div9 . . div20 . div24"
+    "div4 . div10 . . div19 . div25"
+    "div3 . div11 . . div18 . div26"
+    "div2 . div12 . . div17 . div27"
+    "div1 . div13 div14 div15 div16 . div28";
+  gap: 4px;
+  overflow: auto;
+  /* background-color: #99c7b1; */
+  /* background-image: url("../assets/background/bg-middle-board.webp");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  padding: 6px;
+  /* border-radius: 6px; */
+  /* border: 2px solid #fff; */
+  font-family: "Fredoka", "sans-serif";
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-2deg);
+  }
+  20% {
+    transform: rotate(3deg);
+  }
+  30% {
+    transform: rotate(0deg);
+  }
+  40% {
+    transform: rotate(3deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  70% {
+    transform: rotate(-2deg);
+  }
+  80% {
+    transform: rotate(3deg);
+  }
+  90% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-2deg);
+  }
+}
+
+@keyframes moveCharacter {
+  0% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.caracter {
+  width: 80px;
+  transition: transform 2s;
+  animation: vibrate 1s infinite;
+  z-index: 50;
+  position: absolute;
+}
+
+.block-board {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  border: solid 2px;
+  border-color: rgb(209, 209, 209);
+  min-height: 94px;
+  min-width: 120px;
+  transition: 2s;
+  font-size: 1.2rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  position: relative;
+}
+
+.center-block {
+  grid-area: 2 / 2 / 10 / 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  /* background-image: url("../assets/background/bg-middle-board.webp"); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  background-position: -60px;
+}
+
+.start-block {
+  background-image: url("../assets/background/start-flag.webp");
+  background-position: 0 -8px;
+  color: #000;
+  background-color: burlywood;
+}
+
+.toko-block {
+  background-image: url("../assets/background/store.png");
+  background-color: #3af9e6;
+  color: #000;
+}
+
+.empty-block {
+  /* background-image: url("../assets/background/sleep-panda.png"); */
+  /* background-color: #5dbab1; */
+  color: #000;
+}
+
+.money-block {
+  /* background-image: url("../assets/background/rupiah.png"); */
+  background-color: #6199ef;
+}
+
+.minus-block {
+  /* background-image: url("../assets/background/cry.webp"); */
+  /* background-size: 60px; */
+  background-color: #fd7474;
+}
+
+.active1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c488fc;
+  transition: 1s;
+}
+
+.active2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef08a;
+  transition: 2s;
+}
+
+.div1 {
+  grid-area: div1;
+}
+.div2 {
+  grid-area: div2;
+}
+.div3 {
+  grid-area: div3;
+}
+.div4 {
+  grid-area: div4;
+}
+.div5 {
+  grid-area: div5;
+}
+.div6 {
+  grid-area: div6;
+}
+.div7 {
+  grid-area: div7;
+}
+.div8 {
+  grid-area: div8;
+}
+.div9 {
+  grid-area: div9;
+}
+.div10 {
+  grid-area: div10;
+}
+.div11 {
+  grid-area: div11;
+}
+.div12 {
+  grid-area: div12;
+}
+.div13 {
+  grid-area: div13;
+}
+.div14 {
+  grid-area: div14;
+}
+.div15 {
+  grid-area: div15;
+}
+.div16 {
+  grid-area: div16;
+}
+.div17 {
+  grid-area: div17;
+}
+.div18 {
+  grid-area: div18;
+}
+.div19 {
+  grid-area: div19;
+}
+.div20 {
+  grid-area: div20;
+}
+.div21 {
+  grid-area: div21;
+}
+.div22 {
+  grid-area: div22;
+}
+.div23 {
+  grid-area: div23;
+}
+.div24 {
+  grid-area: div24;
+}
+.div25 {
+  grid-area: div25;
+}
+.div26 {
+  grid-area: div26;
+}
+.div27 {
+  grid-area: div27;
+}
+.div28 {
+  grid-area: div28;
+}
+.div29 {
+  grid-area: div29;
+}
+
+/* old layout */
+
+/* .div1 {
+  grid-area: 10 / 4 / 11 / 5;
+  width: 160px; 
+  height: 160px;
+}
+.div2 {
+  grid-area: 10 / 5 / 11 / 6;
+}
+.div3 {
+  grid-area: 10 / 6 / 11 / 7;
+}
+.div4 {
+  grid-area: 10 / 7 / 11 / 8;
+}
+.div5 {
+  grid-area: 9 / 8 / 10 / 9;
+}
+.div6 {
+  grid-area: 8 / 9 / 9 / 10;
+}
+.div7 {
+  grid-area: 7 / 10 / 8 / 11;
+}
+.div8 {
+  grid-area: 6 / 10 / 7 / 11;
+}
+.div9 {
+  grid-area: 5 / 10 / 6 / 11;
+}
+.div10 {
+  grid-area: 4 / 10 / 5 / 11;
+  width: 160px;
+  height: 160px;
+}
+.div11 {
+  grid-area: 3 / 9 / 4 / 10;
+  height: 120px;
+}
+.div12 {
+  grid-area: 2 / 8 / 3 / 9;
+  height: 120px;
+}
+.div13 {
+  grid-area: 1 / 7 / 2 / 8;
+  height: 120px;
+}
+.div14 {
+  grid-area: 1 / 6 / 2 / 7;
+  height: 120px;
+}
+.div15 {
+  grid-area: 1 / 5 / 2 / 6;
+  height: 120px;
+}
+.div16 {
+  grid-area: 1 / 4 / 2 / 5;
+  height: 120px;
+}
+.div17 {
+  grid-area: 2 / 3 / 3 / 4;
+  height: 120px;
+}
+.div18 {
+  grid-area: 3 / 2 / 4 / 3;
+  height: 120px;
+}
+.div19 {
+  grid-area: 4 / 1 / 5 / 2;
+  width: 160px;
+  height: 160px;
+}
+.div20 {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.div21 {
+  grid-area: 6 / 1 / 7 / 2;
+}
+.div22 {
+  grid-area: 7 / 1 / 8 / 2;
+}
+.div23 {
+  grid-area: 8 / 2 / 9 / 3;
+}
+.div24 {
+  grid-area: 9 / 3 / 10 / 4;
+} */
+/* .div25 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.div26 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div27 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div28 {
+  grid-area: 1 / 1 / 2 / 2;
+  width: 160px;
+  height: 160px;
+}
+.div29 {
+  grid-area: 2 / 1 / 3 / 2;
+  height: 120px;
+}
+.div30 {
+  grid-area: 3 / 1 / 4 / 2;
+  height: 120px;
+}
+.div31 {
+  grid-area: 4 / 1 / 5 / 2;
+  height: 120px;
+}
+.div32 {
+  grid-area: 5 / 1 / 6 / 2;
+  height: 120px;
+}
+.div33 {
+  grid-area: 6 / 1 / 7 / 2;
+  height: 120px;
+}
+.div34 {
+  grid-area: 7 / 1 / 8 / 2;
+  height: 120px;
+}
+.div35 {
+  grid-area: 8 / 1 / 9 / 2;
+  height: 120px;
+}
+.div36 {
+  grid-area: 9 / 1 / 10 / 2;
+  height: 120px;
+} */
