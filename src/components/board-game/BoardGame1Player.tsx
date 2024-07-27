@@ -171,7 +171,7 @@ const BoardGame1Player = () => {
             />
             <div className="backdrop-blur-lg text-black text-center px-6 rounded-md  gap-2 mr-36">
               <div className="flex items-center flex-col justify-center ">
-                <p className="font-semibold text-base bg-blue-300 p-4 rounded-md shadow-md md:text-lg">
+                <p className="font-semibold text-base bg-[#c488fc] p-4 rounded-md shadow-md md:text-lg">
                   Uang {dataPlayer1?.name} <br />
                   {rupiahFormat(moneyPlayer1)}
                 </p>

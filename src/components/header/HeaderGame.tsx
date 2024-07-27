@@ -84,7 +84,7 @@ const HeaderInfo = ({
         {/* BLOCK-2 */}
         <div className={clsx("flex gap-2 z-50 uppercase")}>
           <label htmlFor="my_modal_7">
-            <div className="button px-4 py-4 bg-[#93C5FD] font-fredoka font-semibold rounded-md shadow-md">
+            <div className="button px-4 py-4 bg-[#c488fc] font-fredoka font-semibold rounded-md shadow-md">
               <p className="text-black text-sm">
                 {player1Name} | Barang : {player1Item.length}
               </p>

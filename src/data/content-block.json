@@ -140,8 +140,8 @@
   {
     "block-number": 24,
     "name-block": "minus",
-    "content-block": -1200,
-    "bg-source": "/assets/moneys/1200-coin.png"
+    "content-block": -10000,
+    "bg-source": "/assets/moneys/10000.jpg"
   },
   {
     "block-number": 25,
@@ -163,8 +163,8 @@
   },
   {
     "block-number": 28,
-    "name-block": "bonus",
-    "content-block": 10000,
-    "bg-source": "/assets/moneys/10000.jpg"
+    "name-block": "toko",
+    "content-block": "toko",
+    "bg-source": ""
   }
 ]

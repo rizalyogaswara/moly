@@ -258,7 +258,7 @@ const BoardGame = () => {
             />
             <div className="backdrop-blur-sm text-black text-center px-6 rounded-md gap-2 mr-36 -mt-16 ml-4">
               <div className="flex items-center justify-center flex-col">
-                <p className="font-semibold text-base bg-blue-300 p-4 rounded-md shadow-md md:text-lg">
+                <p className="font-semibold text-base bg-[#c488fc] p-4 rounded-md shadow-md md:text-lg">
                   Uang {dataPlayer1?.name} <br />
                   {rupiahFormat(moneyPlayer1)}
                 </p>
@@ -297,7 +297,7 @@ const BoardGame = () => {
                   : null
               }
               className={clsx(
-                `relative div${block["block-number"]} block-board`,
+                `relative div${block["block-number"]} block-board lg:w-[140px] lg:h-[120px]`,
                 player1Position === block["block-number"] ? "active1" : "",
                 player2Position === block["block-number"] ? "active2" : "",
                 block["content-block"] === "toko" ? "toko-block" : "",
