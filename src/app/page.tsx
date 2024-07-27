@@ -38,7 +38,7 @@ export default function Home() {
           transition={{ duration: 0.5, delay: 1.2 }}
           className="flex justify-center items-center flex-col gap-10 -"
         >
-          <Link className="mt-2" href={"/welcome-page"}>
+          <Link className="mt-2" href={"/splash"}>
             <DirectButton background="bg-[#597BF6]" content="Mulai Permainan" />
           </Link>
         </motion.div>
