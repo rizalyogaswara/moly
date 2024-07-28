@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import LoadingProgressBar from "@/components/loading-bar/LoadingProgress";
 import Image from "next/image";
 import useSound from "use-sound";
-import SplashImage from "@/assets/background/splash.png";
+import SplashImage from "@/assets/background/splash.webp";
 
 const Splash = () => {
   const router = useRouter();
