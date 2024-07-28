@@ -12,8 +12,7 @@ const LoadingProgressBar = () => {
         }
         return oldProgress + 1;
       });
-    }, 40); // 5000ms / 100 = 50ms
-
+    }, 40);
     return () => {
       clearInterval(interval);
     };
